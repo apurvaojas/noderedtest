@@ -1,0 +1,11 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-bluemix-nodes": "~1.1.10",
+        "node-red-contrib-ibm-watson-iot": "~0.2.8",
+        "node-red-contrib-ibm-wiotp-device-ops": "~0.1.3",
+        "node-red-contrib-iot-virtual-device": "~0.1.3"
+    }
+}

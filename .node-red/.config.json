@@ -369,6 +369,195 @@
      "local": false,
      "module": "node-red",
      "file": "/home/ojas/Projects/iot/node_modules/node-red/nodes/core/storage/50-file.js"
+    },
+    "wiotp": {
+     "name": "wiotp",
+     "types": [
+      "wiotp-credentials",
+      "wiotp in",
+      "wiotp out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/watson iot/wiotp.js"
+    },
+    "v1": {
+     "name": "v1",
+     "types": [
+      "business-rules"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/businessrules/v1.js"
+    },
+    "tcpin-cf": {
+     "name": "tcpin-cf",
+     "types": [
+      "tcp in",
+      "tcp out",
+      "tcp request"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/io/31-tcpin-cf.js"
+    },
+    "udp-cf": {
+     "name": "udp-cf",
+     "types": [
+      "udp out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/io/32-udp-cf.js"
+    },
+    "15virtual-device-start": {
+     "name": "15virtual-device-start",
+     "types": [
+      "start virtual device"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/15virtual-device-start.js"
+    },
+    "18virtual-device-stop": {
+     "name": "18virtual-device-stop",
+     "types": [
+      "stop virtual device"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/18virtual-device-stop.js"
+    },
+    "30virtual-device-function": {
+     "name": "30virtual-device-function",
+     "types": [
+      "device function"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/30virtual-device-function.js"
+    },
+    "40virtual-device-gen-event": {
+     "name": "40virtual-device-gen-event",
+     "types": [
+      "generate event"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/40virtual-device-gen-event.js"
+    },
+    "50virtual-device-set-properties": {
+     "name": "50virtual-device-set-properties",
+     "types": [
+      "set properties"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/50virtual-device-set-properties.js"
+    },
+    "60virtual-device-monitor": {
+     "name": "60virtual-device-monitor",
+     "types": [
+      "device listener"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/60virtual-device-monitor.js"
+    },
+    "virtual-device-schema": {
+     "name": "virtual-device-schema",
+     "types": [
+      "Device Schema"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/iot-virtual-device/virtual-device-schema.js"
+    },
+    "mongodb-cf": {
+     "name": "mongodb-cf",
+     "types": [
+      "mongodb",
+      "mongodb out",
+      "mongodb in"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/mongo/66-mongodb-cf.js"
+    },
+    "mqlight": {
+     "name": "mqlight",
+     "types": [
+      "mqlight in",
+      "mqlight out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/mqlight/mqlight.js"
+    },
+    "spssscoring": {
+     "name": "spssscoring",
+     "types": [
+      "predictive_analytics"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/spss/spssscoring.js"
+    },
+    "twilio-cf": {
+     "name": "twilio-cf",
+     "types": [
+      "twilio out",
+      "twilio-api"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/twilio/56-twilio-cf.js"
+    },
+    "weather_insights": {
+     "name": "weather_insights",
+     "types": [
+      "weather_insights"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/weather/weather_insights.js"
+    },
+    "device_manager": {
+     "name": "device_manager",
+     "types": [
+      "device-manager",
+      "wiotp"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/wiotp-device-ops/device_manager.js"
+    },
+    "device_type_manager": {
+     "name": "device_type_manager",
+     "types": [
+      "device-type-manager"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/home/ojas/Projects/iot/.node-red/nodes/wiotp-device-ops/device_type_manager.js"
     }
    }
   },
@@ -444,16 +633,16 @@
    }
   }
  },
- "_credentialSecret": "001e721b0fe2a4601cdd17ea33a47f51288051e992ae860379264616860529ed",
+ "_credentialSecret": "65323c4c17659f7a0ef2d63126787a95c774c0a363387f835da6efc5f1429ea8",
  "users": {
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-show-tips": true,
-     "view-snap-grid": true,
-     "view-show-grid": true
+     "view-snap-grid": false,
+     "view-show-grid": false
     }
    }
   }
